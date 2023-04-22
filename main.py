@@ -35,6 +35,10 @@ async def crop_postcard(file: UploadFile = File(...)):
 
 @app.post("/postcard/upload")
 async def upload_postcard(user_email: str, file: UploadFile = File(...)):
+    """
+    Returns the URL of the uploaded file in the format:
+    {'url': [url]}
+    """
     try:
         contents = file.file
         filename = file.filename

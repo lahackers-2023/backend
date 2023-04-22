@@ -2,6 +2,18 @@
 
 ## Windows
 ```
+python -m venv venv
+```
+
+## MacOS/Linux
+```
+python3 -m venv venv
+```
+
+# Creating the virtual environment
+
+## Windows
+```
 venv\Scripts\activate
 ```
 ## MacOS/Linux

@@ -43,6 +43,34 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Crop Postcard",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/D:/Downloads/Spring Google Form Headers.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{local}}/postcard/crop",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"postcard",
+						"crop"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }

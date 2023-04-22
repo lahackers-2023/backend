@@ -1,4 +1,4 @@
-# Activating the virtual environment
+# Creating the virtual environment
 
 ## Windows
 ```
@@ -10,7 +10,7 @@ python -m venv venv
 python3 -m venv venv
 ```
 
-# Creating the virtual environment
+# Activating the virtual environment
 
 ## Windows
 ```

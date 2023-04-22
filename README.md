@@ -38,3 +38,7 @@ uvicorn main:app --reload
 ```
 ngrok http 8000
 ```
+
+## Viewing API docs
+
+http://localhost:8000/docs#/

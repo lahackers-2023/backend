@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "65df8c16-11c3-461a-a0be-2f0fc852dd72",
+		"name": "LAHacks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25730560"
+	},
+	"item": [
+		{
+			"name": "Ping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{local}}",
+					"host": [
+						"{{local}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Postcards",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{local}}/user/postcards?user_email=we",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"user",
+						"postcards"
+					],
+					"query": [
+						{
+							"key": "user_email",
+							"value": "we"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

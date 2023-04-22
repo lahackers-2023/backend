@@ -25,3 +25,16 @@ Make sure to install dependencies the first time you activate:
 ```
 pip install -r requirements.txt
 ```
+
+# Running the application locally
+
+```
+python -m uvicorn main:app --reload
+# or
+uvicorn main:app --reload
+```
+
+# Forwarding on ngrok
+```
+ngrok http 8000
+```
